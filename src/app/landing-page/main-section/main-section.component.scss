@@ -1,0 +1,95 @@
+.main {
+  height: 100%;
+  background-color: #0E3DC1;
+
+  .main__herosection {
+      margin-top: 100px;
+  }
+
+  .main__overlay {
+    background-image: url('../../../assets/images/banner_light.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+    .main__header {
+
+      display: flex;
+      justify-content: space-between;
+      padding: 0 70px;
+      height: 70px;
+
+      .main__logo {
+        background-image: url('../../../assets/images/logo.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100px;
+      }
+
+      .main__links {
+        ul {
+          display: flex;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+
+        li a {
+          display: block;
+          color: #fff;
+          font-weight: 100;
+          padding: 8px 16px;
+          text-decoration: none;
+        }
+
+        li a:active {
+          font-weight: 500;
+        }
+      }
+
+    }
+
+
+  }
+
+  .main__end-overlay {
+    background-image: url('../../../assets/images/cut.png');
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .main__scroll {
+      width: 50px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      margin-right: auto;
+      position: relative;
+      top: 37px;
+      justify-content: center;
+      margin-left: auto;
+      height: 50px;
+      border-radius: 50%;
+      background: #0E3DC1;
+    }
+  }
+}
+
+.subsection {
+
+  .subsection__features {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subsection__feature-item {
+    text-align: center;
+  }
+
+  .subsection__navigate {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px ;
+  }
+}

@@ -1,0 +1,47 @@
+.subsection {
+
+    .subsection__securelife {
+        background-color: #E8EBF0;
+    }
+
+    .subsection__productsitems {
+        display: flex;
+        justify-content: space-between;
+      }
+    
+      .subsection__feature-item {
+        text-align: center;
+      }
+
+      .subsection__footer {
+          display: flex;
+          justify-content: space-between;
+          .subsetion__footerimage{
+
+          }
+
+          .subsection__footerlinks {
+              display: flex;
+              justify-content: space-around;
+            ul {
+              display: flex;
+              flex-direction: column;
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            }
+    
+            li a {
+              display: block;
+              color: #fff;
+              font-weight: 100;
+              padding: 8px 16px;
+              text-decoration: none;
+            }
+    
+            li a:active {
+              font-weight: 500;
+            }
+          }
+      }
+}
